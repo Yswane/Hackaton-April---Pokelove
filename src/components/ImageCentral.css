@@ -1,0 +1,18 @@
+.ImageCentral {
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    left: 30%;
+}
+
+.contenair-pokeball {
+    position: absolute;
+    bottom: 27%;
+    left: 40%;
+}
+
+
+img.contenair-pokeball {
+    width: 20%;
+}

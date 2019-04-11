@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
-import Header from './header';
-import Pokeball from './pokeball';
+import ImageCentral from './ImageCentral';
 
-class Home extends Component{
-    render(){
-        return(
+class Home extends Component {
+    render() {
+        return (
             <>
-            <title>Pokelove</title>
-            <Header />
-            <body>
+                <title>Pokelove</title>
+                <body>
+                    <ImageCentral />
+                    <footer></footer>
+                </body>
 
-
-            <Pokeball />
-
-                <footer></footer>
-            </body>
-            
             </>
         )
     }
