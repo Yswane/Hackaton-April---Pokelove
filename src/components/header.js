@@ -6,7 +6,7 @@ class Header extends Component{
         return(
             <>
                 <header className="logo">
-                    <img src="https://zupimages.net/up/19/15/uonk.jpeg" alt="logo"></img>
+                    <img src="https://zupimages.net/up/19/15/8rgj.png" alt="logo"></img>
                 </header>
             </>
         )
