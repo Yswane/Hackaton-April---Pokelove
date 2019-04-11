@@ -1,0 +1,1512 @@
+[
+  {
+    "id" : 1,
+    "name" : "Bulbizarre",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/1-bulbizarre.png",
+    "cat" : "Graine",
+    "weigth" : "6,9 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis sa naissance."
+  },
+  {
+    "id" : 2,
+    "name" : "Herbizarre",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/2-herbizarre.png",
+    "cat" : "Graine",
+    "weigth" : "13,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Il a un bulbe sur son dos. On dit que s'il absorbe assez de nutriments, ce bulbe se transforme en une jolie fleur."
+  },
+  {
+    "id" : 3,
+    "name" : "Florizarre",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/3-florizarre.png",
+    "cat" : "Graine",
+    "weigth" : "100,0 kg",
+    "heigh" : "2,0 m",
+    "desc" : "Ses pétales lui servent à capter la lumière du soleil. Il peut ainsi en canaliser l'énergie."
+  },
+  {
+    "id" : 4,
+    "name" : "Salamèche",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/4-salameche.png",
+    "cat" : "Lézard",
+    "weigth" : "8,5 kg",
+    "heigh" : "0,6 m",
+    "desc" : "La flamme sur sa queue représente l'énergie vitale de Salamèche. Quand il est vigoureux, elle brûle plus fort."
+  },
+  {
+    "id" : 5,
+    "name" : "Reptincel",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/5-reptincel.png",
+    "cat" : "Flamme",
+    "weigth" : "19,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Il se sert de sa queue pour faire tomber ses adversaires. Une fois qu'ils sont au sol, il les lacère de ses griffes acérées."
+  },
+  {
+    "id" : 6,
+    "name" : "Dracaufeu",
+    "type" : ["Feu", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/6-dracofeu.png",
+    "cat" : "Flamme",
+    "weigth" : "90,5 kg",
+    "heigh" : "1,7 m",
+    "desc" : "Quand il crache son souffle brûlant, la flamme au bout de sa queue s'embrase."
+  },
+  {
+    "id" : 7,
+    "name" : "Carapuce",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/7-carapuce.png",
+    "cat" : "Minitortue",
+    "weigth" : "9,0 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Il se réfugie dans sa carapace et réplique en éclaboussant l'ennemi à la première occasion."
+  },
+  {
+    "id" : 8,
+    "name" : "Carabaffe",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/8-carabaffe.png",
+    "cat" : "Tortue",
+    "weigth" : "22,5 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Attaqué, il cache sa tête dans sa carapace, mais son corps trop gros ne peut y tenir en entier."
+  },
+  {
+    "id" : 9,
+    "name" : "Tortank",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/9-tortank.png",
+    "cat" : "Carapace",
+    "weigth" : "85,5 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Il écrase ses adversaires de tout son poids pour leur faire perdre connaissance. Il rentre dans sa carapace s'il se sent en danger."
+  },
+  {
+    "id" : 10,
+    "name" : "Chenipan",
+    "type" : ["Insect"],
+    "img" : "https://equantin.github.io/poke-api/api/img/10-chenipan.png",
+    "cat" : "Ver",
+    "weigth" : "2,9 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Pour se protéger, il émet un gaz puant par ses antennes, qui fait fuir ses ennemis audacieux."
+  },
+  {
+    "id" : 11,
+    "name" : "Chrysacier",
+    "type" : ["Insect"],
+    "img" : "https://equantin.github.io/poke-api/api/img/11-chrysacier.png",
+    "cat" : "Cocon",
+    "weigth" : "9,9 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Son corps frêle est protégé par sa carapace d'acier. Il encaisse les coups durs en attendant d'évoluer."
+  },
+  {
+    "id" : 12,
+    "name" : "Papilusion",
+    "type" : ["Insect", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/12-papilusion.png",
+    "cat" : "Papillon",
+    "weigth" : "32,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Il raffole du nectar des fleurs. Il est capable de repérer la plus petite quantité de pollen."
+  },
+  {
+    "id" : 13,
+    "name" : "Aspicot",
+    "type" : ["Insect", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/13-aspicot.png",
+    "cat" : "Insectopic",
+    "weigth" : "3,2 kg",
+    "heigh" : "0,3 m",
+    "desc" : "On trouve souvent ce Pokémon dans les forêts et les hautes herbes. L'aiguillon de 5 cm sur sa tête contient un venin très toxique."
+  },
+  {
+    "id" : 14,
+    "name" : "Coconfort",
+    "type" : ["Insect", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/14-coconfort.png",
+    "cat" : "Cocon",
+    "weigth" : "10,0 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Incapable de se déplacer de lui-même, il se défend en durcissant sa carapace."
+  },
+  {
+    "id" : 15,
+    "name" : "Dardagnan",
+    "type" : ["Insect", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/15-dardagnan.png",
+    "cat" : "Guêpoison",
+    "weigth" : "29,5 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Il se sert de ses trois aiguillons empoisonnés pour attaquer sans relâche ses adversaires."
+  },
+  {
+    "id" : 16,
+    "name" : "Roucool",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/16-roucool.png",
+    "cat" : "Minoiseau",
+    "weigth" : "1,8 kg",
+    "heigh" : "0,3 m",
+    "desc" : "On l'aperçoit souvent dans les forêts. Avec ses ailes, il brasse l'air près du sol pour projeter du sable."
+  },
+  {
+    "id" : 17,
+    "name" : "Roucoups",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/17-roucoups.png",
+    "cat" : "Oiseau",
+    "weigth" : "30,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Grâce à ses griffes très puissantes, il est capable de transporter des Noeunoeuf vers un nid éloigné de plus de 100 km."
+  },
+  {
+    "id" : 18,
+    "name" : "Roucarnage",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/18-roucarnage.png",
+    "cat" : "Oiseau",
+    "weigth" : "39,5 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Il survole la surface de l'eau pour repérer une proie et plonge en piqué pour l'attraper."
+  },
+  {
+    "id" : 19,
+    "name" : "Rattata",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/19-rattata.png",
+    "cat" : "Souris",
+    "weigth" : "3,5 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Vivant là où se trouve la nourriture, ce charognard passe ses journées à la rechercher."
+  },
+  {
+    "id" : 20,
+    "name" : "Rattatac",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/20-rattatac.png",
+    "cat" : "Souris",
+    "weigth" : "18,5 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Il grignote sans cesse pour apaiser la poussée de ses crocs. Il peut transpercer un mur de parpaings."
+  },
+  {
+    "id" : 21,
+    "name" : "Piafabec",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/21-piafabec.png",
+    "cat" : "Minoiseau",
+    "weigth" : "2,0 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Très protecteur de son territoire, il bat vite des ailes pour se déplacer à toute allure."
+  },
+  {
+    "id" : 22,
+    "name" : "Rapasdepic",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/22-rapasdepic.png",
+    "cat" : "Bec-Oiseau",
+    "weigth" : "38,0 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Ses ailes géantes lui permettent de voler sur de longues distances sans qu'il ait besoin de se reposer."
+  },
+  {
+    "id" : 23,
+    "name" : "Abo",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/23-abo.png",
+    "cat" : "Serpent",
+    "weigth" : "6,9 kg",
+    "heigh" : "2,0 m",
+    "desc" : "Plus il est âgé, plus son corps est long. Il se love autour des arbres pour se reposer."
+  },
+  {
+    "id" : 24,
+    "name" : "Arbok",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/24-arbok.png",
+    "cat" : "Cobra",
+    "weigth" : "65,0 kg",
+    "heigh" : "3,5 m",
+    "desc" : "Les motifs sur son corps ressemblent à un visage menaçant. Les adversaires les plus craintifs fuient à la seule vue de ce Pokémon."
+  },
+  {
+    "id" : 25,
+    "name" : "Pikachu",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/25-pikachu.png",
+    "cat" : "Souris",
+    "weigth" : "6,0 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Il élève sa queue pour surveiller les environs. Elle attire souvent la foudre dans cette position."
+  },
+  {
+    "id" : 26,
+    "name" : "Raichu",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/26-raichu.png",
+    "cat" : "Souris",
+    "weigth" : "30,0 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Quand il se charge en électricité, ses muscles se contractent et il devient plus agressif."
+  },
+  {
+    "id" : 27,
+    "name" : "Sabelette",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/27-sabelette.png",
+    "cat" : "Souris",
+    "weigth" : "12,0 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Il s'enterre et vit dans les sous-sols. S'il se sent menacé, il se met en boule pour se protéger."
+  },
+  {
+    "id" : 28,
+    "name" : "Sablaireau",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/28-sablaireau.png",
+    "cat" : "Souris",
+    "weigth" : "29,5 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Il creuse si vite qu'il peut briser ses épines et ses griffes. Mais elles repoussent en une journée."
+  },
+  {
+    "id" : 29,
+    "name" : "Nidoran F",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/29-nidoranF.png",
+    "cat" : "Vénépic",
+    "weigth" : "7,0 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Ce Pokémon est hérissé de dards empoisonnées. Les femelles ont une corne plus petite."
+  },
+  {
+    "id" : 30,
+    "name" : "Nidorina",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/30-nidorina.png",
+    "cat" : "Vénépic",
+    "weigth" : "20,0 kg",
+    "heigh" : "0,8 m",
+    "desc" : "La femelle a un tempérament doux. Elle émet des cris ultrasoniques capables de déstabiliser ses ennemis."
+  },
+  {
+    "id" : 31,
+    "name" : "Nidoqueen",
+    "type" : ["Poison", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/31-nidoqueen.png",
+    "cat" : "Perceur",
+    "weigth" : "60,0 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Il se sert de son corps lourdement protégé pour empêcher les prédateurs d'accéder à son nid."
+  },
+  {
+    "id" : 32,
+    "name" : "Nidoran M",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/32-nidoranM.png",
+    "cat" : "Vénépic",
+    "weigth" : "9,0 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Il jauge le terrain en laissant ses oreilles dépasser de l'herbe. Il se défend avec sa corne toxique."
+  },
+  {
+    "id" : 33,
+    "name" : "Nidorino",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/33-nidorino.png",
+    "cat" : "Vénépic",
+    "weigth" : "19,5 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Il dresse ses oreilles à l'affût d'un bruit suspect et attaque toute menace se rapprochant de lui."
+  },
+  {
+    "id" : 34,
+    "name" : "Nidoking",
+    "type" : ["Poison", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/34-nidoking.png",
+    "cat" : "Perceur",
+    "weigth" : "62,0 kg",
+    "heigh" : "1,4 m",
+    "desc" : "On le reconnaît facilement grâce à sa peau dure comme la pierre ainsi qu'à sa grosse corne pleine de poison."
+  },
+  {
+    "id" : 35,
+    "name" : "Mélofée",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/35-melofee.png",
+    "cat" : "Fée",
+    "weigth" : "7,5 kg",
+    "heigh" : "0,6 m",
+    "desc" : "On dit que ceux qui voient danser une groupe de Mélofée sous la pleine lune connaîtront un grand bonheur."
+  },
+  {
+    "id" : 36,
+    "name" : "Mélodelfe",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/36-melodelfe.png",
+    "cat" : "Fée",
+    "weigth" : "40,0 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Il aime le calme des montagnes. Son ouïe exceptionnelle entendrait une aiguille tomber à 1km."
+  },
+  {
+    "id" : 37,
+    "name" : "Goupix",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/37-goupix.png",
+    "cat" : "Renard",
+    "weigth" : "9,9 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Il n'a qu'une seule queue à la naissance. Sa queue se divise à la pointe au fil des ans."
+  },
+  {
+    "id" : 38,
+    "name" : "Feunard",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/38-feunard.png",
+    "cat" : "Renard",
+    "weigth" : "19,9 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Il a neuf longues queues et une fourrure qui brille comme de l'or. On dit qu'il peut vivre 1 000 ans."
+  },
+  {
+    "id" : 39,
+    "name" : "Rondoudou",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/39-rondoudou.png",
+    "cat" : "Bouboule",
+    "weigth" : "5,5 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Il hypnotise ses ennemis grâce à ses grands yeux avant de les plonger dans un profond sommeil en chantant une douce mélopée."
+  },
+  {
+    "id" : 40,
+    "name" : "Grodoudou",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/40-grodoudou.png",
+    "cat" : "Bouboule",
+    "weigth" : "12,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Leur fourrure est si douce que s'ils se font des câlins, ils ne voudront plus se séparer."
+  },
+  {
+    "id" : 41,
+    "name" : "Nosferapti",
+    "type" : ["Poison", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/41-nosferapti.png",
+    "cat" : "Chovsouris",
+    "weigth" : "7,5 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
+  },
+  {
+    "id" : 42,
+    "name" : "Nosferalto",
+    "type" : ["Poison", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/42-nosferalto.png",
+    "cat" : "Chovsouris",
+    "weigth" : "55,0 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Il mord son adversaire et absorbe toute son énergie, même s'il devient trop lourd pour voler."
+  },
+  {
+    "id" : 43,
+    "name" : "Mystherbe",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/43-mystherbe.png",
+    "cat" : "Racine",
+    "weigth" : "5,4 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Le jour, il reste en sous-sol et évite le soleil. Il grandit en se baignant au clair de lune."
+  },
+  {
+    "id" : 44,
+    "name" : "Ortide",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/44-ortide.png",
+    "cat" : "Racine",
+    "weigth" : "8,6 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Il sent très mauvais ! Mais une personne sur 1 000 aime la puanteur de son corps nauséabond."
+  },
+  {
+    "id" : 45,
+    "name" : "Rafflesia",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/45-rafflesia.png",
+    "cat" : "Fleur",
+    "weigth" : "18,6 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Plus ses pétales sont grands, plus ils contiennent de pollen toxique."
+  },
+  {
+    "id" : 46,
+    "name" : "Paras",
+    "type" : ["Insect", "Plante"],
+    "img" : "https://equantin.github.io/poke-api/api/img/46-paras.png",
+    "cat" : "Champignon",
+    "weigth" : "5,4 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Sur le dos de ce Pokémon se trouvent des champignons appelés tochukaso. Ils se développent au même rythme que leur hôte."
+  },
+  {
+    "id" : 47,
+    "name" : "Parasect",
+    "type" : ["Insect", "Plante"],
+    "img" : "https://equantin.github.io/poke-api/api/img/47-parasect.png",
+    "cat" : "Champignon",
+    "weigth" : "29,5 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées."
+  },
+  {
+    "id" : 48,
+    "name" : "Mimitoss",
+    "type" : ["Insect", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/48-mimitoss.png",
+    "cat" : "ChamVerminepignon",
+    "weigth" : "30,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ses grands yeux sont en fait des amas d'yeux minuscules. La nuit, il est attiré par la lumière."
+  },
+  {
+    "id" : 49,
+    "name" : "Aeromite",
+    "type" : ["Insect", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/49-aeromite.png",
+    "cat" : "Papipoison",
+    "weigth" : "12,5 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Les écailles qu'il sème ont le pouvoir de paralyser totalement un ennemi."
+  },
+  {
+    "id" : 50,
+    "name" : "Taupiqueur",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/50-taupiqueur.png",
+    "cat" : "Taupe",
+    "weigth" : "0,8 kg",
+    "heigh" : "0,2 m",
+    "desc" : "Il vit à un mètre sous la terre et se nourrit de racines. Il apparaît rarement à la surface."
+  },
+  {
+    "id" : 51,
+    "name" : "Triopikeur",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/51-triopikeur.png",
+    "cat" : "Taupe",
+    "weigth" : "33,3 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Au combat, il s'enfuit sous terre pour pouvoir frapper ses adversaires depuis n'importe quelle direction."
+  },
+  {
+    "id" : 52,
+    "name" : "Miaouss",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/52-miaouss.png",
+    "cat" : "Chadégout",
+    "weigth" : "4,2 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Son regard s'anime à la vue d'un objet brillant. C'est un Pokémon nocturne."
+  },
+  {
+    "id" : 53,
+    "name" : "Persian",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/53-persian.png",
+    "cat" : "Chadeville",
+    "weigth" : "32,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Très apprécié pour sa fourrure, il est difficile à apprivoiser en raison de son caractère rétif."
+  },
+  {
+    "id" : 54,
+    "name" : "Psykokwak",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/54-psykokwak.png",
+    "cat" : "Canard",
+    "weigth" : "19,6 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Ce Pokémon a tout le temps la migraine. Quand la douleur devient insupportable, il se met à utiliser ses pouvoirs psy."
+  },
+  {
+    "id" : 55,
+    "name" : "Akwakwak",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/55-akwakwak.png",
+    "cat" : "Canard",
+    "weigth" : "76,6 kg",
+    "heigh" : "1,7 m",
+    "desc" : "Il apparaît dans les étendues d'eau au crépuscule. Si son front brille, il se sert de sa télékinésie."
+  },
+  {
+    "id" : 56,
+    "name" : "Ferosinge",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/56-ferosinge.png",
+    "cat" : "Porsinge",
+    "weigth" : "28,0 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Il ne peut dissocier ses amis de ses ennemis et a tendance à enrager lorsqu'on l'approche."
+  },
+  {
+    "id" : 57,
+    "name" : "Colosinge",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/57-colosinge.png",
+    "cat" : "Porsinge",
+    "weigth" : "32,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Sa fureur prend fin quand il n'a plus personne à frapper. Il est difficile d'en être témoin."
+  },
+  {
+    "id" : 58,
+    "name" : "Caninos",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/58-caninos.png",
+    "cat" : "Chiot",
+    "weigth" : "19,0 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Ce Pokémon est particulièrement affectueux et loyal. Il aboie et il mord pour se débarrasser de ses adversaires."
+  },
+  {
+    "id" : 59,
+    "name" : "Arcanin",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/59-arcanin.png",
+    "cat" : "Légendaire",
+    "weigth" : "155,0 kg",
+    "heigh" : "1,9 m",
+    "desc" : "Un Pokémon très recherché pour sa grâce légendaire. Il court avec tellement d'agilité qu'on dirait qu'il vole."
+  },
+  {
+    "id" : 60,
+    "name" : "Ptitard",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/60-ptitard.png",
+    "cat" : "Têtard",
+    "weigth" : "12,4 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Sa peau est humide, lisse et surtout très fine. La forme en spirale sur son ventre est en fait une partie de ses organes internes que l'on peut apercevoir."
+  },
+  {
+    "id" : 61,
+    "name" : "Tetarte",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/61-tetarte.png",
+    "cat" : "Têtard",
+    "weigth" : "20,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ce Pokémon amphibie transpire continuellement quand il est hors de l'eau afin d'hydrater son corps."
+  },
+  {
+    "id" : 62,
+    "name" : "Tartard",
+    "type" : ["Eau", "Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/62-tartard.png",
+    "cat" : "Têtard",
+    "weigth" : "54,0 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l'Océan Pacifique."
+  },
+  {
+    "id" : 63,
+    "name" : "Abra",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/63-abra.png",
+    "cat" : "Psy",
+    "weigth" : "19,5 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Il dort 18 heures par jour. Il peut utiliser de nombreux pouvoirs psy, même pendant son sommeil."
+  },
+  {
+    "id" : 64,
+    "name" : "Kadabra",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/64-kadabra.png",
+    "cat" : "Psy",
+    "weigth" : "56,5 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Son pouvoir psychique émet des ondes alpha qui brouillent les appareils électroniques."
+  },
+  {
+    "id" : 65,
+    "name" : "Alakazam",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/65-alakazam.png",
+    "cat" : "Psy",
+    "weigth" : "48,0 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Ses cellules cérébrales se multiplient jusqu'à sa mort. Il se souvient donc de tout."
+  },
+  {
+    "id" : 66,
+    "name" : "Machoc",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/66-machoc.png",
+    "cat" : "Colosse",
+    "weigth" : "19,5 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+  },
+  {
+    "id" : 67,
+    "name" : "Machopeur",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/67-machopeur.png",
+    "cat" : "Colosse",
+    "weigth" : "70,5 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Son corps est si puissant qu'il lui faut une ceinture de force pour équilibrer ses mouvements."
+  },
+  {
+    "id" : 68,
+    "name" : "Mackogneur",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/68-mackogneur.png",
+    "cat" : "Colosse",
+    "weigth" : "130,0 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Ses deux paires de bras permettent à Mackogneur d'envoyer une série de 1000 coups de poing en 2s."
+  },
+  {
+    "id" : 69,
+    "name" : "Chetiflor",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/69-chetiflor.png",
+    "cat" : "Fleur",
+    "weigth" : "4,0 kg",
+    "heigh" : "0,7 m",
+    "desc" : "Même si son corps est très frêle, ce Pokémon est extrêmement rapide quand il attaque ses adversaires."
+  },
+  {
+    "id" : 70,
+    "name" : "Boustiflor",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/70-boustiflor.png",
+    "cat" : "Carnivore",
+    "weigth" : "6,4 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ses membres en forme de feuilles permettent à Boustiflor de trancher ses adversaires. Il crache un fluide capable de tout dissoudre."
+  },
+  {
+    "id" : 71,
+    "name" : "Empiflor",
+    "type" : ["Plante", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/71-empiflor.png",
+    "cat" : "Carnivore",
+    "weigth" : "15,5 kg",
+    "heigh" : "1,7 m",
+    "desc" : "On dit qu'il vit en colonie dans la jungle, mais personne n'en est jamais revenu vivant pour le confirmer."
+  },
+  {
+    "id" : 72,
+    "name" : "Tentacool",
+    "type" : ["Eau", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/72-tentacool.png",
+    "cat" : "Mollusque",
+    "weigth" : "45,5 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Son corps est principalement composé d'eau. Ses yeux cristallins projettent d'étranges rayons."
+  },
+  {
+    "id" : 73,
+    "name" : "Tentacruel",
+    "type" : ["Eau", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/73-tentacruel.png",
+    "cat" : "Mollusque",
+    "weigth" : "55,0 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent pour prendre ses proies au piège."
+  },
+  {
+    "id" : 74,
+    "name" : "Racaillou",
+    "type" : ["Roche", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/74-racaillou.png",
+    "cat" : "Roche",
+    "weigth" : "20,0 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Il vit dans les plaines ou les montagnes. On le confond souvent avec un petit caillou."
+  },
+  {
+    "id" : 75,
+    "name" : "Gravalanch",
+    "type" : ["Roche", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/75-gravalanch.png",
+    "cat" : "Roche",
+    "weigth" : "105,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "D'une nature téméraire, il se moque de perdre des parties de son corps quand il dévale les pentes."
+  },
+  {
+    "id" : 76,
+    "name" : "Grolem",
+    "type" : ["Roche", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/76-grolem.png",
+    "cat" : "Titanesque",
+    "weigth" : "300,0 kg",
+    "heigh" : "1,4 m",
+    "desc" : "À force de dévaler les falaises, il a creusé de larges sillons. Mieux vaut ne pas s'en approcher."
+  },
+  {
+    "id" : 77,
+    "name" : "Ponyta",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/77-ponyta.png",
+    "cat" : "Cheval Feu",
+    "weigth" : "30,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Chancelantes à la naissance, ses pattes deviennent très vite sûres et solides à force de galoper."
+  },
+  {
+    "id" : 78,
+    "name" : "Galopa",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/78-galopa.png",
+    "cat" : "Cheval Feu",
+    "weigth" : "95,0 kg",
+    "heigh" : "1,7 m",
+    "desc" : "Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course."
+  },
+  {
+    "id" : 79,
+    "name" : "Ramoloss",
+    "type" : ["Eau", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/79-ramoloss.png",
+    "cat" : "Crétin",
+    "weigth" : "36,0 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Ramoloss semble toujours perdu dans ses pensées, mais personne ne sait vraiment à quoi il pense. Il adore pêcher en utilisant sa queue."
+  },
+  {
+    "id" : 80,
+    "name" : "Flagadoss",
+    "type" : ["Eau", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/80-flagadoss.png",
+    "cat" : "Symbiose",
+    "weigth" : "78,5 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Le Kokiyas accroché à sa queue est friand de ce qu'il dévore et ne veut pas lâcher prise."
+  },
+  {
+    "id" : 81,
+    "name" : "Magneti",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/81-magneti.png",
+    "cat" : "Magnétique",
+    "weigth" : "6,0 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Les parties sur les côtés de son corps génèrent une énergie lui permettant de léviter."
+  },
+  {
+    "id" : 82,
+    "name" : "Magneton",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/82-magneton.png",
+    "cat" : "Magnétique",
+    "weigth" : "60,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ce Pokémon est composé de plusieurs Magnéti. Il est capable de projeter de puissantes décharges magnétiques à haute tension."
+  },
+  {
+    "id" : 83,
+    "name" : "Canarticho",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/83-canarticho.png",
+    "cat" : "Canard Fou",
+    "weigth" : "15,0 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Il utilise le légume qu'il tient comme s'il s'agissait d'une épée."
+  },
+  {
+    "id" : 84,
+    "name" : "Doduo",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/84-doduo.png",
+    "cat" : "Duoiseau",
+    "weigth" : "39,2 kg",
+    "heigh" : "1,4 m",
+    "desc" : "Ce Pokémon à deux têtes est le résultat d'une soudaine mutation. Il peut courir jusqu'à 100 km/h."
+  },
+  {
+    "id" : 85,
+    "name" : "Dodrio",
+    "type" : ["Normal", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/85-dodrio.png",
+    "cat" : "Trioiseau",
+    "weigth" : "85,2 kg",
+    "heigh" : "1,8 m",
+    "desc" : "Un ennemi ne faisant pas attention à l'une des trois têtes pendant une seconde se fait picorer."
+  },
+  {
+    "id" : 86,
+    "name" : "Otaria",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/86-otaria.png",
+    "cat" : "Otarie",
+    "weigth" : "90,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise."
+  },
+  {
+    "id" : 87,
+    "name" : "Lamantine",
+    "type" : ["Eau", "Glace"],
+    "img" : "https://equantin.github.io/poke-api/api/img/87-lamantine.png",
+    "cat" : "Otarie",
+    "weigth" : "120,0 kg",
+    "heigh" : "1,7 m",
+    "desc" : "Son corps est recouvert d'une fourrure d'un blanc pur. Plus il fait froid, et plus ce Pokémon est actif."
+  },
+  {
+    "id" : 88,
+    "name" : "Tadmorv",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/88-tadmorv.png",
+    "cat" : "Dégueu",
+    "weigth" : "30,0 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Tadmorv est né d'un tas de déchets exposé aux rayons X lunaires. Ce Pokémon adore se nourrir de choses dégoûtantes."
+  },
+  {
+    "id" : 89,
+    "name" : "Grotadmorv",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/89-grotadmorv.png",
+    "cat" : "Dégueu",
+    "weigth" : "30,0 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Il recherche les endroits sales où il y a des ordures pour y établir son habitat puant et infect."
+  },
+  {
+    "id" : 90,
+    "name" : "Kokiyas",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/90-kokiyas.png",
+    "cat" : "Bivalve",
+    "weigth" : "4,0 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
+  },
+  {
+    "id" : 91,
+    "name" : "Crustabri",
+    "type" : ["Eau", "Glace"],
+    "img" : "https://equantin.github.io/poke-api/api/img/91-crustabri.png",
+    "cat" : "Bivalve",
+    "weigth" : "132,5 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Les Crustabri vivant dans des mers aux courants forts développent des dards sur leur coquille."
+  },
+  {
+    "id" : 92,
+    "name" : "Fantominus",
+    "type" : ["Spectre", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/92-fantominus.png",
+    "cat" : "Gaz",
+    "weigth" : "0,1 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Son corps est composé de gaz. Il peut ainsi envelopper un adversaire et le faire suffoquer."
+  },
+  {
+    "id" : 93,
+    "name" : "Spectrum",
+    "type" : ["Spectre", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/93-spectrum.png",
+    "cat" : "Gaz",
+    "weigth" : "0,1 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Si vous avez l'impression qu'on vous surveille dans le noir, c'est sûrement qu'un Spectrum est dans le coin."
+  },
+  {
+    "id" : 94,
+    "name" : "Ectoplasma",
+    "type" : ["Spectre", "Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/94-ectoplasma.png",
+    "cat" : "Ombre",
+    "weigth" : "40,5 kg",
+    "heigh" : "1,5 m",
+    "desc" : "On dit que lorsqu'Ectoplasma se cache dans l'ombre, la température alentour chute de 5°C."
+  },
+  {
+    "id" : 95,
+    "name" : "Onix",
+    "type" : ["Roche", "Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/95-onix.png",
+    "cat" : "Serpenroc",
+    "weigth" : "210,0 kg",
+    "heigh" : "8,8 m",
+    "desc" : "Il creuse sous terre en quête de nourriture. Ses tunnels servent de maison aux Taupiqueur."
+  },
+  {
+    "id" : 96,
+    "name" : "Soporifik",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/96-soporifik.png",
+    "cat" : "Hypnose",
+    "weigth" : "32,4 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Il endort ses ennemis et dévore leurs songes. S’il mange trop de cauchemars, il fait une indigestion."
+  },
+  {
+    "id" : 97,
+    "name" : "Hypnomade",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/97-hypnomade.png",
+    "cat" : "Hypnose",
+    "weigth" : "75,6 kg",
+    "heigh" : "1,6 m",
+    "desc" : "Il transporte toujours un petit pendule. On raconte qu'il aurait un jour enlevé un enfant après l'avoir hypnotisé."
+  },
+  {
+    "id" : 98,
+    "name" : "Krabby",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/98-krabby.png",
+    "cat" : "Doux Crabe",
+    "weigth" : "6,5 kg",
+    "heigh" : "0,4 m",
+    "desc" : "S'il est menacé, il se cache derrière les bulles émises par sa bouche pour paraître plus gros."
+  },
+  {
+    "id" : 99,
+    "name" : "Krabboss",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/99-krabboss.png",
+    "cat" : "Pince",
+    "weigth" : "60,0 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Sa grosse pince développe une puissance de 10 000 CV. Toutefois, sa taille imposante la rend difficile à utiliser."
+  },
+  {
+    "id" : 100,
+    "name" : "Voltorbe",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/100-voltorbe.png",
+    "cat" : "Balle",
+    "weigth" : "10,4 kg",
+    "heigh" : "0,5 m",
+    "desc" : "Découvert en même temps que les Poké Balls. Il paraît qu'il existe un lien entre les deux."
+  },
+  {
+    "id" : 101,
+    "name" : "Electrode",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/101-electrode.png",
+    "cat" : "Balle",
+    "weigth" : "66,6 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Il explose au moindre choc. Son seul surnom de « Bomb Ball » suffit à effrayer ses adversaires."
+  },
+  {
+    "id" : 102,
+    "name" : "Noeunoeuf",
+    "type" : ["Plante", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/102-noeunoeuf.png",
+    "cat" : "Œuf",
+    "weigth" : "2,5 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
+  },
+  {
+    "id" : 103,
+    "name" : "Noadkoko",
+    "type" : ["Plante", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/103-noadkoko.png",
+    "cat" : "Fruitpalme",
+    "weigth" : "120,0 kg",
+    "heigh" : "2,0 m",
+    "desc" : "Ses trois têtes sont autonomes. Elles semblent toutefois en harmonie et ne se disputent jamais."
+  },
+  {
+    "id" : 104,
+    "name" : "Osselait",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/104-osselait.png",
+    "cat" : "Solitaire",
+    "weigth" : "6,5 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Ce Pokémon porte le crâne de sa défunte mère sur sa tête. On raconte qu'il se met à pleurer dès qu'il se retrouve seul."
+  },
+  {
+    "id" : 105,
+    "name" : "Ossatueur",
+    "type" : ["Sol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/105-ossatueur.png",
+    "cat" : "Gard'Os",
+    "weigth" : "45,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ce petit Pokémon était à l'origine très faible. Il est devenu redoutable le jour où il a appris à se servir de ses os."
+  },
+  {
+    "id" : 106,
+    "name" : "Kicklee",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/106-kicklee.png",
+    "cat" : "Latteur",
+    "weigth" : "49,8 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Kicklee peut rétracter et allonger ses jambes à sa guise. La formidable allonge dont il dispose lui donne souvent l'avantage en plein combat."
+  },
+  {
+    "id" : 107,
+    "name" : "Tygnon",
+    "type" : ["Combat"],
+    "img" : "https://equantin.github.io/poke-api/api/img/107-tygnon.png",
+    "cat" : "Puncheur",
+    "weigth" : "50,2 kg",
+    "heigh" : "1,4 m",
+    "desc" : "Même le béton cède sous ses poings dévastateurs. Au combat, il s'essouffle au bout de 3 minutes."
+  },
+  {
+    "id" : 108,
+    "name" : "Excelangue",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/108-excelangue.png",
+    "cat" : "Lécheur",
+    "weigth" : "65,5 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Sa longue langue sécrète une salive gluante qui se colle à n'importe quoi. Elle est très efficace!"
+  },
+  {
+    "id" : 109,
+    "name" : "Smogo",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/109-smogo.png",
+    "cat" : "Gaz Mortel",
+    "weigth" : "1,0 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Son corps très fin en forme de ballon est rempli d'un horrible gaz toxique. L'air est nauséabond à proximité de ce Pokémon."
+  },
+  {
+    "id" : 110,
+    "name" : "Smogogo",
+    "type" : ["Poison"],
+    "img" : "https://equantin.github.io/poke-api/api/img/110-smogogo.png",
+    "cat" : "Gaz Mortel",
+    "weigth" : "9,5 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Si l'un des deux Smogo se gonfle, l'autre se dégonfle. Ils mélangent leurs gaz en permanence."
+  },
+  {
+    "id" : 111,
+    "name" : "Rhinocorne",
+    "type" : ["Sol", "Roche"],
+    "img" : "https://equantin.github.io/poke-api/api/img/111-rhinocorne.png",
+    "cat" : "Piquant",
+    "weigth" : "115,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Costaud mais pas très intelligent, ce Pokémon est capable de détruire un immeuble entier en utilisant sa Charge."
+  },
+  {
+    "id" : 112,
+    "name" : "Rhinoferos",
+    "type" : ["Sol", "Roche"],
+    "img" : "https://equantin.github.io/poke-api/api/img/112-rhinoferos.png",
+    "cat" : "Perceur",
+    "weigth" : "120,0 kg",
+    "heigh" : "1,9 m",
+    "desc" : "Son épiderme très épais lui permet de survivre dans un environnement où il fait plus de 2000°c."
+  },
+  {
+    "id" : 113,
+    "name" : "Leveinard",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/113-leveinard.png",
+    "cat" : "Œuf",
+    "weigth" : "34,6 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+  },
+  {
+    "id" : 114,
+    "name" : "Saquedeneu",
+    "type" : ["Plante"],
+    "img" : "https://equantin.github.io/poke-api/api/img/114-saquedeneu.png",
+    "cat" : "Vigne",
+    "weigth" : "35,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ses lianes s'allongent au fil du temps. Elles recouvrent tout son corps, dont on ignore la véritable forme."
+  },
+  {
+    "id" : 115,
+    "name" : "Kangourex",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/115-kangourex.png",
+    "cat" : "Maternel",
+    "weigth" : "80,0 kg",
+    "heigh" : "2,2 m",
+    "desc" : "Il élève ses petits dans sa poche ventrale. Il attend d'être en lieu sûr pour les laisser jouer dehors."
+  },
+  {
+    "id" : 116,
+    "name" : "Hypotrempe",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/116-hypotrempe.png",
+    "cat" : "Dragon",
+    "weigth" : "8,0 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Il abat les insectes volants en leur tirant un jet d'encre depuis la surface de l'eau. Ses tirs sont toujours précis."
+  },
+  {
+    "id" : 117,
+    "name" : "Hypocean",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/117-hypocean.png",
+    "cat" : "Dragon",
+    "weigth" : "25,0 kg",
+    "heigh" : "1,2 m",
+    "desc" : "Son corps est recouvert de pointes tranchantes. Il faut la plus grande attention pour le saisir, sous peine de se faire piquer."
+  },
+  {
+    "id" : 118,
+    "name" : "Poissirene",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/118-poissirene.png",
+    "cat" : "Poisson",
+    "weigth" : "15,0 kg",
+    "heigh" : "0,6 m",
+    "desc" : "Il nage à 5 nœuds. Quand on l'agresse, il réplique d'un bon coup de corne aiguisée."
+  },
+  {
+    "id" : 119,
+    "name" : "Poissoroy",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/119-poissoroy.png",
+    "cat" : "Poisson",
+    "weigth" : "39,0 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Pendant la saison des amours, on peut le voir nager dans les rivières et les lacs."
+  },
+  {
+    "id" : 120,
+    "name" : "Stari",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/120-stari.png",
+    "cat" : "Étoile",
+    "weigth" : "34,5 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Même si son corps est détruit, il peut se régénérer aussi longtemps que son cœur est en bon état."
+  },
+  {
+    "id" : 121,
+    "name" : "Staross",
+    "type" : ["Eau", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/121-staross.png",
+    "cat" : "Mystérieux",
+    "weigth" : "80,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse."
+  },
+  {
+    "id" : 122,
+    "name" : "M. Mime",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/122-mime.png",
+    "cat" : "Bloqueur",
+    "weigth" : "54,5 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Les murs invisibles qu’il matérialise du bout des doigts repoussent les attaques les plus puissantes."
+  },
+  {
+    "id" : 123,
+    "name" : "Insecateur",
+    "type" : ["Insect", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/123-insecateur.png",
+    "cat" : "Mante",
+    "weigth" : "56,0 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Il déchiquette ses proies à l'aide de ses bras tranchants comme des faux. Il n'utilise ses ailes pour voler que très rarement."
+  },
+  {
+    "id" : 124,
+    "name" : "Lippoutou",
+    "type" : ["Glace", "Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/124-lippoutou.png",
+    "cat" : "Humanoïde",
+    "weigth" : "40,6 kg",
+    "heigh" : "1,4 m",
+    "desc" : "Il ondule ses hanches en marchant et entraîne les gens dans des danses frénétiques."
+  },
+  {
+    "id" : 125,
+    "name" : "Elektek",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/125-elektek.png",
+    "cat" : "Électrique",
+    "weigth" : "30,0 kg",
+    "heigh" : "1,1 m",
+    "desc" : "Des ondes électriques parcourent la surface de son corps. Il brille d'un éclat bleuté dans le noir."
+  },
+  {
+    "id" : 126,
+    "name" : "Magmar",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/126-magmar.png",
+    "cat" : "Crache-feu",
+    "weigth" : "44,5 kg",
+    "heigh" : "1,3 m",
+    "desc" : "On trouve ce Pokémon près des bouches de volcans. Son corps incandescent atteint 1 200 °C."
+  },
+  {
+    "id" : 127,
+    "name" : "Scarabrute",
+    "type" : ["Insect"],
+    "img" : "https://equantin.github.io/poke-api/api/img/127-scarabrute.png",
+    "cat" : "Scarabée",
+    "weigth" : "55,0 kg",
+    "heigh" : "1,5 m",
+    "desc" : "Il serre les proies dans ses pinces pour les trancher en deux. S'il n'y arrive pas, il les jette au loin."
+  },
+  {
+    "id" : 128,
+    "name" : "Tauros",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/128-tauros.png",
+    "cat" : "Buffle",
+    "weigth" : "88,4 kg",
+    "heigh" : "1,4 m",
+    "desc" : "Après s'être fouetté avec ses trois queues pour augmenter son agressivité, il charge."
+  },
+  {
+    "id" : 129,
+    "name" : "Magicarpe",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/129-magicarpe.png",
+    "cat" : "Poisson",
+    "weigth" : "10,0 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Magicarpe manque totalement de vitesse et de force. C'est le Pokémon le plus pathétique sur terre."
+  },
+  {
+    "id" : 130,
+    "name" : "Leviator",
+    "type" : ["Eau", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/130-leviator.png",
+    "cat" : "Terrifiant",
+    "weigth" : "235,0 kg",
+    "heigh" : "6,5 m",
+    "desc" : "La littérature ancienne fait état d’un Léviator qui aurait rasé un village sous le coup de la colère."
+  },
+  {
+    "id" : 131,
+    "name" : "Lokhlass",
+    "type" : ["Eau", "Glace"],
+    "img" : "https://equantin.github.io/poke-api/api/img/131-lokhlass.png",
+    "cat" : "Transport",
+    "weigth" : "220,0 kg",
+    "heigh" : "2,5 m",
+    "desc" : "Ils sont d'une nature gentille. Comme ils se défendent rarement, ils sont en voie d'extinction."
+  },
+  {
+    "id" : 132,
+    "name" : "Metamorph",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/132-metamorph.png",
+    "cat" : "Morphing",
+    "weigth" : "4,0 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Il a la capacité de modifier sa structure cellulaire pour prendre l'apparence de ce qu'il voit."
+  },
+  {
+    "id" : 133,
+    "name" : "Evoli",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/133-evoli.png",
+    "cat" : "Évolutif",
+    "weigth" : "6,5 kg",
+    "heigh" : "0,3 m",
+    "desc" : "Un Pokémon rare qui s'adapte aux environnements hostiles en variant ses formes évolutives."
+  },
+  {
+    "id" : 134,
+    "name" : "Aquali",
+    "type" : ["Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/134-aquali.png",
+    "cat" : "Bulleur",
+    "weigth" : "29,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Il préfère les belles plages. Il peut se dissoudre à volonté grâce à ses cellules proches de l'eau."
+  },
+  {
+    "id" : 135,
+    "name" : "Voltali",
+    "type" : ["Electrique"],
+    "img" : "https://equantin.github.io/poke-api/api/img/135-voltali.png",
+    "cat" : "Orage",
+    "weigth" : "24,5 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Chaque poil sur son corps se dresse quand il se charge en électricité."
+  },
+  {
+    "id" : 136,
+    "name" : "Pyroli",
+    "type" : ["Feu"],
+    "img" : "https://equantin.github.io/poke-api/api/img/136-pyroli.png",
+    "cat" : "Flamme",
+    "weigth" : "25,0 kg",
+    "heigh" : "0,9 m",
+    "desc" : "Son corps contient une glande enflammée. Sa température monte à 900°C avant le combat."
+  },
+  {
+    "id" : 137,
+    "name" : "Porygon",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/137-porygon.png",
+    "cat" : "Virtuel",
+    "weigth" : "36,5 kg",
+    "heigh" : "0,8 m",
+    "desc" : "Un Pokémon créé par l'homme après de longues recherches. Il ne connaît que peu de mouvements."
+  },
+  {
+    "id" : 138,
+    "name" : "Amonita",
+    "type" : ["Roche", "Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/138-amonita.png",
+    "cat" : "Spirale",
+    "weigth" : "7,5 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Un Pokémon préhistorique qui vivait dans les profondeurs marines. Il se déplace en agitant ses 10 tentacules."
+  },
+  {
+    "id" : 139,
+    "name" : "Amonistar",
+    "type" : ["Roche", "Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/139-amonistar.png",
+    "cat" : "Spirale",
+    "weigth" : "35,0 kg",
+    "heigh" : "1,0 m",
+    "desc" : "Ses tentacules sont développés comme s'il s'agissait de bras ou de jambes. Dès qu'il attaque une proie il la mord."
+  },
+  {
+    "id" : 140,
+    "name" : "Kabuto",
+    "type" : ["Roche", "Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/140-kabuto.png",
+    "cat" : "Carapace",
+    "weigth" : "11,5 kg",
+    "heigh" : "0,5 m",
+    "desc" : "On pense qu'il peuplait les plages il y a 300 millions d'années. Il est protégé par une coquille robuste."
+  },
+  {
+    "id" : 141,
+    "name" : "Kabutops",
+    "type" : ["Roche", "Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/141-kabutops.png",
+    "cat" : "Carapace",
+    "weigth" : "40,5 kg",
+    "heigh" : "1,3 m",
+    "desc" : "Dans l'eau, il se recroqueville sur ses jambes et il agite sa coquille pour nager à très grande vitesse."
+  },
+  {
+    "id" : 142,
+    "name" : "Ptera",
+    "type" : ["Roche", "Eau"],
+    "img" : "https://equantin.github.io/poke-api/api/img/142-ptera.png",
+    "cat" : "Fossile",
+    "weigth" : "59,0 kg",
+    "heigh" : "1,8 m",
+    "desc" : "Ce Pokémon a été reconstitué à partir d'une cellule de dinosaure trouvée dans un morceau d'ambre. Il vole très haut en poussant des cris très aigus."
+  },
+  {
+    "id" : 143,
+    "name" : "Ronflex",
+    "type" : ["Normal"],
+    "img" : "https://equantin.github.io/poke-api/api/img/143-ronflex.png",
+    "cat" : "Pionceur",
+    "weigth" : "460,0 kg",
+    "heigh" : "2,1 m",
+    "desc" : "Ronflex n'est pas satisfait tant qu'il n'a pas avalé ses 400 kg de nourriture quotidienne. Dès qu'il a fini de manger, il commence une sieste pour digérer."
+  },
+  {
+    "id" : 144,
+    "name" : "Artikodin",
+    "type" : ["Glace", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/144-artikodin.png",
+    "cat" : "Glaciaire",
+    "weigth" : "55,4 kg",
+    "heigh" : "1,7 m",
+    "desc" : "Un Pokémon Oiseau légendaire. Il peut provoquer des blizzards en gelant l'humidité de l'air."
+  },
+  {
+    "id" : 145,
+    "name" : "Electhor",
+    "type" : ["Electrique", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/145-electhor.png",
+    "cat" : "Électrique",
+    "weigth" : "52,6 kg",
+    "heigh" : "1,6 m",
+    "desc" : "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs."
+  },
+  {
+    "id" : 146,
+    "name" : "Sulfura",
+    "type" : ["Feu", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/146-sulfura.png",
+    "cat" : "Flamme",
+    "weigth" : "60,0 kg",
+    "heigh" : "2,0 m",
+    "desc" : "Le légendaire oiseau du feu. Une pluie de flammes surgit à chaque battement de ses ailes."
+  },
+  {
+    "id" : 147,
+    "name" : "Minidraco",
+    "type" : ["Dragon"],
+    "img" : "https://equantin.github.io/poke-api/api/img/147-minidraco.png",
+    "cat" : "Dragon",
+    "weigth" : "3,3 kg",
+    "heigh" : "1,8 m",
+    "desc" : "On l'appelle « Pokémon mirage » en raison de sa rareté. On a découvert sa mue."
+  },
+  {
+    "id" : 148,
+    "name" : "Draco",
+    "type" : ["Dragon"],
+    "img" : "https://equantin.github.io/poke-api/api/img/148-draco.png",
+    "cat" : "Dragon",
+    "weigth" : "16,5 kg",
+    "heigh" : "4,0 m",
+    "desc" : "Ses orbes de cristal donnent le pouvoir de contrôler le climat."
+  },
+  {
+    "id" : 149,
+    "name" : "Dracolosse",
+    "type" : ["Dragon", "Vol"],
+    "img" : "https://equantin.github.io/poke-api/api/img/149-dracolosse.png",
+    "cat" : "Dragon",
+    "weigth" : "210,0 kg",
+    "heigh" : "2,2 m",
+    "desc" : "Malgré son poids et son physique imposant, Dracolosse est capable de voler. Il peut faire le tour du monde en 16 heures."
+  },
+  {
+    "id" : 150,
+    "name" : "Mewtwo",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/150-mewtwo.png",
+    "cat" : "Génétique",
+    "weigth" : "122,0 kg",
+    "heigh" : "2,0 m",
+    "desc" : "Il est le fruit de nombreuses expériences génétiques horribles et malsaines."
+  },
+  {
+    "id" : 151,
+    "name" : "Mew",
+    "type" : ["Psy"],
+    "img" : "https://equantin.github.io/poke-api/api/img/151-mew.png",
+    "cat" : "n.a.",
+    "weigth" : "4,0 kg",
+    "heigh" : "0,4 m",
+    "desc" : "Nombre de scientifiques voient en lui l'ancêtre des Pokémon car il maîtrise toutes leurs capacités."
+  }
+]
