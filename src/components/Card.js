@@ -2,7 +2,24 @@ import React, { Component } from 'react';
 import './Card.css';
 
 class Card extends Component  {
+
+  getData(){
+    
+    return fetch('https://equantin.github.io/poke-api/api/all.json')
+    .then((response) => response.json())
+    .then((responseJson) => {
+    alert(responseJson);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+  }
+
+  componentDidMount(){
+    this.getData();
+  }
   render() {
+
     return (
     <>
       <div className="container_card">
