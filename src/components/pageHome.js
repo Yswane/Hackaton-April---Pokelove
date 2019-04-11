@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './header';
 import ImageCentral from './ImageCentral';
 
 class Home extends Component{
@@ -7,10 +6,8 @@ class Home extends Component{
         return(
             <>
             <title>Pokelove</title>
-            <Header />
             <body>
-              <ImageCentral />
-
+             <ImageCentral />
                 <footer></footer>
             </body>
             

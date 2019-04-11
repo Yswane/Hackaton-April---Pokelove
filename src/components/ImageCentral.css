@@ -1,3 +1,8 @@
-.ImageCentral img {
+.ImageCentral {
     width: 100%;
 }
+.logo {
+    position: absolute;
+    left: 30%;
+}
+
