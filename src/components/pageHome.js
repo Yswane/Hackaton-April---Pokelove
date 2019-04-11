@@ -8,7 +8,7 @@ class Home extends Component{
             <title>Pokelove</title>
             <Header />
             <body>
-                <p>test</p>
+
 
 
 
