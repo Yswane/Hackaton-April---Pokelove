@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import Pokeball from './pokeball';
 
 class Home extends Component{
     render(){
@@ -10,7 +11,7 @@ class Home extends Component{
             <body>
 
 
-
+            <Pokeball />
 
                 <footer></footer>
             </body>
