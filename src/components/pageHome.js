@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import Card from './Card';
 
 class Home extends Component{
     render(){
@@ -8,6 +9,7 @@ class Home extends Component{
             <title>Pokelove</title>
             <Header />
             <body>
+            <Card />
                 <p>test</p>
 
 

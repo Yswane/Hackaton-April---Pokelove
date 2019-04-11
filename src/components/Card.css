@@ -1,0 +1,53 @@
+.card, .card1, .card2{
+    width:30%;
+    
+}
+
+.card{
+    border-radius: 90%;
+   
+}
+.card img, .card1 img{
+    width:60%;
+    padding-top: 5%;
+}
+.card, .card2, .card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px;
+    margin: 1%;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover, .card1:hover, .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .name {
+    padding: 2px 16px;
+    
+  }
+
+  .pokemon1{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      
+      
+  }
+
+  .card{
+      background: url("https://image.noelshack.com/fichiers/2019/15/4/1554999362-love.jpg");
+  }
+
+  .card1{
+      background: url("https://image.noelshack.com/fichiers/2019/15/4/1555000066-blue3.jpg");
+  }
+
+  .card2{
+      background: url("https://image.noelshack.com/fichiers/2019/15/4/1554999970-pink.jpg");
+  }
+  
