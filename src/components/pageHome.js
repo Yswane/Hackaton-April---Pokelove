@@ -31,8 +31,8 @@ class Home extends Component {
         console.log(pokes)
         return (
             <>
-                <title >Pokelove</title>
                 <ImageCentral handleChangePokemon={this.getRandomInt} />
+                
                 <body>
                     <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]}/>
                 </body>
