@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import ImageCentral from './ImageCentral';
 
 class Home extends Component{
     render(){
@@ -8,9 +9,7 @@ class Home extends Component{
             <title>Pokelove</title>
             <Header />
             <body>
-                <p>test</p>
-
-
+              <ImageCentral />
 
                 <footer></footer>
             </body>
