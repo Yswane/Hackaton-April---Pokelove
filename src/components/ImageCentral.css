@@ -1,0 +1,78 @@
+.ImageCentral {
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    left: 33%;
+}
+
+.contenair-pokeball {
+    position: absolute;
+    bottom: 27%;
+    left: 42%;
+    z-index: 9999;
+}
+
+
+img.contenair-pokeball {
+    width: 15%;
+}
+
+.poulet {
+    width: 85%;
+    position: absolute;
+    top: -90%;
+    right: 7%;
+    z-index: 100000;
+    /* animation: shimmy 5s; */
+    /* animation-direction: alternate; */
+}
+
+.onClickAnim {
+    animation: shimmy 5s;  
+}
+
+@keyframes shimmy {
+    0% {
+        transform: translateY(0);    
+    }
+    100% {
+        transform: translateY(2000px);
+    }
+  }
+
+  .fusionNoShow {
+      opacity: 0;
+  }
+
+  .fusionVisible {
+    position: absolute;
+    top: 44%;
+    z-index: 20000;
+    left: 42%;
+    opacity: 1;
+}
+
+.Connexion {
+    position: absolute;
+    right: 1%;
+}
+
+.Connexion a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Connexion a:hover {
+    color: red;
+}
+
+.contenair-poney {
+    width: 10%;
+    position: absolute;
+    top: 100%;
+    right: 89%;
+
+}
