@@ -50,7 +50,7 @@ class Home extends Component {
     handlePokeFusion = () => {
         if (this.state.removePokeFusion)
             return (
-                <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2}/${this.state.randomPoke2}.${this.state.randomPoke1}.png`} alt="" onClick={this.getRandomInt}></img>
+                <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2 +1}/${this.state.randomPoke2 +1}.${this.state.randomPoke1 +1}.png`} alt="" onClick={this.getRandomInt}></img>
             )
         if (this.state.firstTimer === 0) {
             return null
