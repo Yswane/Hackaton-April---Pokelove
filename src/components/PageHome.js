@@ -58,8 +58,8 @@ class Home extends Component {
             return null
         } else {
             return (
-                <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke1}/${this.state.randomPoke1}.${this.state.randomPoke2}.png`} alt="" onClick={this.getRandomInt}></img>
-
+                <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2 +1}/${this.state.randomPoke2 +1}.${this.state.randomPoke1 +1}.png`} alt="" onClick={this.getRandomInt}></img>
+                
             )
         }
     }
