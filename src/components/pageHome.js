@@ -11,6 +11,9 @@ class Home extends Component {
         randomPoke1: 1,
         randomPoke2: 2,
         randomPokelove: false,
+        firstTimer: 0,
+        showFusion: false,
+        removePokeFusion: false
     }
 
     resetState = () => {
@@ -27,9 +30,12 @@ class Home extends Component {
         this.setState({
             randomPoke1: poke1,
             randomPoke2: poke2,
-            randomPokelove: !this.state.randomPokelove
+            randomPokelove: !this.state.randomPokelove,
+            firstTimer: this.state.firstTimer + 1,
+            showFusion: !this.state.showFusion
         })
         this.resetState()
+        setTimeout(() => this.setState({removePokeFusion: !this.state.removePokeFusion}), 3500)
     }
 
     handleAnimation = () => {
@@ -40,6 +46,22 @@ class Home extends Component {
         } 
     }
 
+    handlePokeFusion = () => {
+        if (this.state.removePokeFusion) 
+            return (
+                <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2}/${this.state.randomPoke2}.${this.state.randomPoke1}.png`} alt="" onClick={this.getRandomInt}></img>
+            )
+        if (this.state.firstTimer === 0) {
+            return null
+        } else if (this.state.firstTimer === 0 && this.state.showFusion === false) {
+            return null
+        } else {
+            return (
+                <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke1}/${this.state.randomPoke1}.${this.state.randomPoke2}.png`} alt="" onClick={this.getRandomInt}></img>
+                
+            )
+        }   
+    }
 
 
     render() {
@@ -51,6 +73,10 @@ class Home extends Component {
                 
                     <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]}/>
                     {this.handleAnimation()}
+
+                    {this.handlePokeFusion()}
+
+                    
             </>
         )
     }

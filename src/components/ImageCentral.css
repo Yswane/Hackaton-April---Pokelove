@@ -40,3 +40,31 @@ img.contenair-pokeball {
         transform: translateY(2000px);
     }
   }
+
+  .fusionNoShow {
+      opacity: 0;
+  }
+
+  .fusionVisible {
+    position: absolute;
+    top: 44%;
+    z-index: 20000;
+    left: 42%;
+    opacity: 1;
+}
+
+.Connexion {
+    position: absolute;
+    right: 1%;
+}
+
+.Connexion a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Connexion a:hover {
+    color: red;
+}
