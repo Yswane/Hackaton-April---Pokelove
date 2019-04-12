@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from "react-router-dom"
 import './App.css';
-import Home from './components/pageHome';
+import Home from './components/PageHome';
 import Connexion from './screen/Connexion'
 
 

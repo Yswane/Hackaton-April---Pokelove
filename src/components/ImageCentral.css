@@ -3,14 +3,14 @@
 }
 .logo {
     position: absolute;
-    left: 30%;
+    left: 33%;
 }
 
 .contenair-pokeball {
     position: absolute;
     bottom: 27%;
     left: 42%;
-    z-index: 1;
+    z-index: 9999;
 }
 
 
@@ -67,4 +67,12 @@ img.contenair-pokeball {
 
 .Connexion a:hover {
     color: red;
+}
+
+.contenair-poney {
+    width: 10%;
+    position: absolute;
+    top: 100%;
+    right: 89%;
+
 }

@@ -13,12 +13,13 @@ class Home extends Component {
         randomPokelove: false,
         firstTimer: 0,
         showFusion: false,
-        removePokeFusion: false
+        removePokeFusion: false,
+        showModal: false
     }
-
+    
     resetState = () => {
-        setTimeout(() => this.setState({randomPokelove: !this.state.randomPokelove}), 2500)
-        
+        setTimeout(() => this.setState({ randomPokelove: !this.state.randomPokelove }), 2500)
+
     }
 
     getRandomInt = () => {
@@ -35,19 +36,19 @@ class Home extends Component {
             showFusion: !this.state.showFusion
         })
         this.resetState()
-        setTimeout(() => this.setState({removePokeFusion: !this.state.removePokeFusion}), 3500)
+        setTimeout(() => this.setState({ removePokeFusion: !this.state.removePokeFusion }), 3500)
     }
 
     handleAnimation = () => {
         if (this.state.randomPokelove) {
-          return  <img className='poulet onClickAnim' src={anim} alt=""></img>
+            return <img className='poulet onClickAnim' src={anim} alt=""></img>
         } else {
             return <img className='poulet' src={anim} alt=""></img>
-        } 
+        }
     }
 
     handlePokeFusion = () => {
-        if (this.state.removePokeFusion) 
+        if (this.state.removePokeFusion)
             return (
                 <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2}/${this.state.randomPoke2}.${this.state.randomPoke1}.png`} alt="" onClick={this.getRandomInt}></img>
             )
@@ -58,9 +59,9 @@ class Home extends Component {
         } else {
             return (
                 <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke1}/${this.state.randomPoke1}.${this.state.randomPoke2}.png`} alt="" onClick={this.getRandomInt}></img>
-                
+
             )
-        }   
+        }
     }
 
 
@@ -68,15 +69,12 @@ class Home extends Component {
         console.log(pokes)
         return (
             <>
-                <title >Pokelove</title>
                 <ImageCentral handleChangePokemon={this.getRandomInt} />
-                
-                    <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]}/>
-                    {this.handleAnimation()}
 
-                    {this.handlePokeFusion()}
+                <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]} />
+                {this.handleAnimation()}
 
-                    
+                {this.handlePokeFusion()}
             </>
         )
     }
