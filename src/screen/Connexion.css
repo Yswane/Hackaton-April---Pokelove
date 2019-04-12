@@ -1,0 +1,94 @@
+.login-page {
+
+	display: flex;
+	height: 100vh;
+}
+
+.login {
+	width: 360px;
+
+	background: #191f28;
+	display: flex;
+	align-items: center;
+	
+	.form-container {
+		transform: translateX(50%);
+
+	}
+	
+	h1 {
+		font-family: 'Helvetica';
+		color: #fff;
+	}
+	
+	form {
+	}
+}
+
+.form-wrapper {
+	background: #fff;
+	padding: 2em;
+	border-radius: .55rem;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+form {
+	display: flex;
+	flex-direction: column;
+	
+	>div {
+		font-weight: semi-bold;
+		margin-bottom: 3em;
+		text-transform: uppercase;
+		font-size:.7em;
+		opacity: .5;
+	}
+	
+}
+
+.photo {
+	overflow: hidden;
+	img {
+		object-fit: contain;
+		width: 100%;
+	}
+}
+
+label {
+	font-weight: semi-bold;
+	text-transform: uppercase;
+	font-size:.7em;
+	opacity: .5;
+	transform: translateY(-70px)
+}
+
+input {
+	padding: .5em;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;	
+	margin-bottom: 1.3em;
+}
+
+button {
+	padding: .5em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .2px;
+	line-height: 1.5;
+	color: rgba(255,255,255,.9);
+	background-color: #cd5d52;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+
+input:focus + label {
+}
+
+input:invalid + label {
+		color: red;
+}
+
+input:valid + label {
+		color: green;
+}
