@@ -47,7 +47,7 @@
     width:100%;
     position: absolute;
     bottom:20vh;
-    margin-left: 4%
+   
     
 
 }
@@ -84,7 +84,7 @@
   }
 
   .name h2{
-      color:yellow;
+      color: white;
       font-size: 40px;
   }
   

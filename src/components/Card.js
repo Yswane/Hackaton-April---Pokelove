@@ -12,7 +12,7 @@ const Card = (props) => {
           <div className="card">
             <img src={props.poke1.img} alt="Avatar" />
             <div className="name">
-              <h4><b>{props.poke1.name}</b></h4>
+              <h2><b>{props.poke1.name}</b></h2>
             </div>
           </div>
           <div className="card1">
@@ -26,7 +26,7 @@ const Card = (props) => {
           <div className="card">
             <img src={props.poke2.img} alt="Avatar" />
             <div className="name">
-              <h4><b>{props.poke2.name}</b></h4>
+              <h2><b>{props.poke2.name}</b></h2>
             </div>
           </div>
         </div>
