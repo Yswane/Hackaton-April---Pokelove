@@ -29,7 +29,7 @@ class Connexion extends Component {
 	</div>
 </div>     
 <img className="pikapika" src="https://thumbs.gfycat.com/IdealPeacefulAmericanbittern-max-1mb.gif" alt="pikapika" />
-          
+          <button className="buttonNewPika">Inscription pika pika</button>
         </>
       );
     }

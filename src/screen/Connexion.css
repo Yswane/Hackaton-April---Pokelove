@@ -102,3 +102,12 @@ input:valid + label {
 img.pikapika {
     width: 40%;
 }
+
+.buttonNewPika {
+    font-size: 50px;
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    opacity: 0.8;
+    border: 20px;
+}
