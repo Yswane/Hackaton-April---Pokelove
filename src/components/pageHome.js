@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageCentral from './ImageCentral';
 import Card from './Card';
-
+import anim from './images/image-anim.png'
 import pokes from './all.json'
 
 class Home extends Component {
@@ -10,19 +10,34 @@ class Home extends Component {
         pokemon2: pokes,
         randomPoke1: 1,
         randomPoke2: 2,
+        randomPokelove: false,
     }
 
+    resetState = () => {
+        setTimeout(() => this.setState({randomPokelove: !this.state.randomPokelove}), 2500)
+        
+    }
 
     getRandomInt = () => {
-        const poke1 = Math.floor(Math.random() * Math.floor(151));
-        const poke2 = Math.floor(Math.random() * Math.floor(151));
+        let poke1 = Math.floor(Math.random() * Math.floor(151));
+        let poke2 = Math.floor(Math.random() * Math.floor(151));
         if (poke1 === poke2) {
             poke2 += 1
         }
         this.setState({
             randomPoke1: poke1,
-            randomPoke2: poke2
+            randomPoke2: poke2,
+            randomPokelove: !this.state.randomPokelove
         })
+        this.resetState()
+    }
+
+    handleAnimation = () => {
+        if (this.state.randomPokelove) {
+          return  <img className='poulet onClickAnim' src={anim} alt=""></img>
+        } else {
+            return <img className='poulet' src={anim} alt=""></img>
+        } 
     }
 
 
@@ -33,9 +48,9 @@ class Home extends Component {
             <>
                 <title >Pokelove</title>
                 <ImageCentral handleChangePokemon={this.getRandomInt} />
-                <body>
+                
                     <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]}/>
-                </body>
+                    {this.handleAnimation()}
             </>
         )
     }

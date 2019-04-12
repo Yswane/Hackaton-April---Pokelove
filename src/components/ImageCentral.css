@@ -10,9 +10,33 @@
     position: absolute;
     bottom: 27%;
     left: 42%;
+    z-index: 1;
 }
 
 
 img.contenair-pokeball {
     width: 15%;
 }
+
+.poulet {
+    width: 85%;
+    position: absolute;
+    top: -90%;
+    right: 7%;
+    z-index: 100000;
+    /* animation: shimmy 5s; */
+    /* animation-direction: alternate; */
+}
+
+.onClickAnim {
+    animation: shimmy 5s;  
+}
+
+@keyframes shimmy {
+    0% {
+        transform: translateY(0);    
+    }
+    100% {
+        transform: translateY(2000px);
+    }
+  }
