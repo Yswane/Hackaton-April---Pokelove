@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {  Link } from "react-router-dom"
 import './Connexion.css';
 
 
@@ -29,7 +30,7 @@ class Connexion extends Component {
 	</div>
 </div>     
 <img className="pikapika" src="https://thumbs.gfycat.com/IdealPeacefulAmericanbittern-max-1mb.gif" alt="pikapika" />
-          <button className="buttonNewPika">Inscription pika pika</button>
+          <button className="buttonNewPika"><Link to="/login">Inscription pika pika</Link></button>
         </>
       );
     }
