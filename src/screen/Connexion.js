@@ -9,17 +9,16 @@ class Connexion extends Component {
            <div className="login-page">
 	<div className="login">
 		<div className="form-container">
-			<h1>Logo</h1>
 			<div className="form-wrapper">
 				<form onsubmit="event.preventDefault();">
 					<div>Login To Your Account</div>
-					<input required type="emil" id="email" name="email" />
+					<input required type="email" id="email" name="email" />
 					<label htlmfor="email">email</label>
 
 					<input required id="password" name="password" type="password" />
 					<label htlmfor="password">password</label>
 
-					<button>login</button>
+					<button className="button">login</button>
 				</form>
 			</div>
 
@@ -29,6 +28,7 @@ class Connexion extends Component {
 		<img src="https://image.noelshack.com/fichiers/2019/15/4/1554991425-image-pokelove.png" alt="connexion client" />
 	</div>
 </div>     
+<img className="pikapika" src="https://thumbs.gfycat.com/IdealPeacefulAmericanbittern-max-1mb.gif" alt="pikapika" />
           
         </>
       );

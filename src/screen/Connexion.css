@@ -5,37 +5,28 @@
 }
 
 .login {
-	width: 360px;
-
+	width: 560px;
 	background: #191f28;
 	display: flex;
-	align-items: center;
-	
-	.form-container {
-		transform: translateX(50%);
+    align-items: center;
+}
 
-	}
-	
-	h1 {
-		font-family: 'Helvetica';
-		color: #fff;
-	}
-	
-	form {
-	}
+.form-container {
+    transform: translateX(70%);
 }
 
 .form-wrapper {
 	background: #fff;
 	padding: 2em;
 	border-radius: .55rem;
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
 }
 form {
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+}
 	
-	>div {
+form div {
 		font-weight: semi-bold;
 		margin-bottom: 3em;
 		text-transform: uppercase;
@@ -43,22 +34,20 @@ form {
 		opacity: .5;
 	}
 	
-}
 
-.photo {
-	overflow: hidden;
-	img {
-		object-fit: contain;
-		width: 100%;
-	}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+	
 }
 
 label {
 	font-weight: semi-bold;
 	text-transform: uppercase;
-	font-size:.7em;
+	font-size:.6em;
 	opacity: .5;
-	transform: translateY(-70px)
+	transform: translateY(-60px)
 }
 
 input {
@@ -83,6 +72,7 @@ button {
 }
 
 input:focus + label {
+    color: blue;
 }
 
 input:invalid + label {
@@ -91,4 +81,24 @@ input:invalid + label {
 
 input:valid + label {
 		color: green;
+}
+
+.form-container {
+    width: 100%;
+    margin-left: -70%;
+    margin-top: -10%;
+}
+
+.logo {
+    color: white;
+}
+
+.pikapika {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+img.pikapika {
+    width: 40%;
 }
