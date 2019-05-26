@@ -2,9 +2,6 @@ import React from 'react';
 import './Card.css';
 
 const Card = (props) => {
-
-  console.log(props)
-
   return (
     <>
       <div className="container_card">
@@ -30,12 +27,9 @@ const Card = (props) => {
             </div>
           </div>
         </div>
-
       </div>
-
     </>
   );
-
 }
 
 export default Card;
