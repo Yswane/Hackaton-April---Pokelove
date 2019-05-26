@@ -27,8 +27,7 @@ class Card extends Component {
             <h4><b>Carapuce</b></h4>
           </div>
         </div> 
-        </div>
-        
+        </div>        
       </div>
       
     </>
