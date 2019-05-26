@@ -16,10 +16,9 @@ class Home extends Component {
         removePokeFusion: false,
         showModal: false
     }
-    
-    resetState = () => {
-        setTimeout(() => this.setState({ randomPokelove: !this.state.randomPokelove }), 2500)
 
+    resetState = () => {
+        setTimeout(() => this.setState({ randomPokelove: !this.state.randomPokelove }), 3000)
     }
 
     getRandomInt = () => {
@@ -36,7 +35,7 @@ class Home extends Component {
             showFusion: !this.state.showFusion
         })
         this.resetState()
-        setTimeout(() => this.setState({ removePokeFusion: !this.state.removePokeFusion }), 3500)
+        setTimeout(() => this.setState({ removePokeFusion: !this.state.removePokeFusion }), 5000)
     }
 
     handleAnimation = () => {
@@ -50,7 +49,7 @@ class Home extends Component {
     handlePokeFusion = () => {
         if (this.state.removePokeFusion)
             return (
-                <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2}/${this.state.randomPoke2}.${this.state.randomPoke1}.png`} alt="" onClick={this.getRandomInt}></img>
+                <img className="fusionVisible animated flipOutX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2 + 1}/${this.state.randomPoke2 + 1}.${this.state.randomPoke1 + 1}.png`} alt="" onClick={this.getRandomInt}></img>
             )
         if (this.state.firstTimer === 0) {
             return null
@@ -58,8 +57,7 @@ class Home extends Component {
             return null
         } else {
             return (
-                <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke1}/${this.state.randomPoke1}.${this.state.randomPoke2}.png`} alt="" onClick={this.getRandomInt}></img>
-
+                <img className="fusionVisible animated flipInX" src={`https://images.alexonsager.net/pokemon/fused/${this.state.randomPoke2 + 1}/${this.state.randomPoke2 + 1}.${this.state.randomPoke1 + 1}.png`} alt="" onClick={this.getRandomInt}></img>
             )
         }
     }
@@ -70,10 +68,8 @@ class Home extends Component {
         return (
             <>
                 <ImageCentral handleChangePokemon={this.getRandomInt} />
-
                 <Card poke1={this.state.pokemon1[this.state.randomPoke1]} poke2={this.state.pokemon2[this.state.randomPoke2]} />
                 {this.handleAnimation()}
-
                 {this.handlePokeFusion()}
             </>
         )

@@ -1,0 +1,145 @@
+.login-page {
+	display: flex;
+	height: 100vh;
+}
+
+.login {
+	width: 560px;
+	background: #191f28;
+	display: flex;
+    align-items: center;
+}
+
+.form-container {
+    transform: translateX(70%);
+}
+
+.form-wrapper {
+	background: #fff;
+	padding: 2em;
+	border-radius: .55rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+form {
+	display: flex;
+    flex-direction: column;
+}
+	
+form div {
+	font-weight: semi-bold;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    font-size:.7em;
+    opacity: .5;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+label {
+	font-weight: semi-bold;
+	text-transform: uppercase;
+	font-size:.6em;
+	opacity: .5;
+	transform: translateY(-60px)
+}
+
+input {
+	padding: .5em;
+	color: #495057;
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;	
+	margin-bottom: 1.3em;
+}
+
+button {
+	padding: .5em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .2px;
+	line-height: 1.5;
+	color: rgba(255,255,255,.9);
+	background-color: #cd5d52;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+
+input:focus + label {
+    color: blue;
+}
+
+input:invalid + label {
+	color: red;
+}
+
+input:valid + label {
+	color: green;
+}
+
+.form-container {
+    width: 100%;
+    margin-left: -70%;
+    margin-top: -10%;
+}
+
+.logo {
+    color: white;
+}
+
+.pikapika {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+img.pikapika {
+    width: 40%;
+}
+
+.buttonNewPika {
+    font-size: 50px;
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    opacity: 0.8;
+    border: 20px;
+}
+
+.buttonNewPika a {
+    text-decoration: none;
+}
+.buttonNewPika a:hover {
+    opacity: 0.7;
+}
+
+.ConnexionHome {
+    position: absolute;
+    right: 1%;
+    background-color:#E34138;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+}
+
+.ConnexionHome a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ConnexionHome a:hover {
+    color:lightgray;
+}
